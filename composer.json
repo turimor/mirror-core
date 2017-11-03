@@ -12,7 +12,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Proxy\\": "src/"
+			"Mirror\\": "src/"
 		},
 		"files": [
 			"src/helpers.php"
