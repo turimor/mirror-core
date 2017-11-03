@@ -1,0 +1,21 @@
+{
+	"name": "turmor/mirror-core",
+	"type": "library",
+	"keywords": ["Turimor","TheBombe"],
+	"homepage": "https://www.thebombe.cn/",
+	"require": {
+		"ext-curl": "*",
+		"symfony/event-dispatcher": "~3.2"
+	},
+	"suggest": {
+		"predis/predis": "For caching purposes"
+	},
+	"autoload": {
+		"psr-4": {
+			"Proxy\\": "src/"
+		},
+		"files": [
+			"src/helpers.php"
+		]
+	}
+}
