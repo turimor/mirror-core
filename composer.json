@@ -8,7 +8,7 @@
 		"symfony/event-dispatcher": "~3.2"
 	},
 	"suggest": {
-		"predis/predis": "For caching purposes"
+		"predis/predis": "缓存功能使用的"
 	},
 	"autoload": {
 		"psr-4": {
